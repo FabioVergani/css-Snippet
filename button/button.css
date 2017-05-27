@@ -1,4 +1,5 @@
 button{
+ cursor:pointer;pointer-events:auto;
  font:600 16px/18px arial,sans-serif;
  padding:10px 20px;
  border-radius:8px;
