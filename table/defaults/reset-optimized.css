@@ -1,0 +1,13 @@
+table{display:table;border-collapse:separate;border-spacing:2px;border-color:gray}
+caption{display:table-caption;text-align:center}
+colgroup{display:table-column-group}
+col{display:table-column}
+tbody,tfoot,thead{vertical-align:middle}
+tbody,tfoot,thead,tr{border-color:inherit}
+thead{display:table-header-group}
+tfoot{display:table-footer-group}
+tbody{display:table-row-group}
+td,th,tr{vertical-align:inherit}
+td,th{display:table-cell}
+tr{display:table-row}
+th{font-weight:bolder}
