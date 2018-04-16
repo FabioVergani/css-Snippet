@@ -1,0 +1,6 @@
+ol,ul{display:block;text-align:start;margin:1em 0;padding:0 0 0 40px}
+ul ul,ul ol,ol ul,ol ol{margin:0}
+ul ul{list-style:circle}
+ul{list-style:disc}
+ol{list-style:decimal}
+li{display:list-item;text-align:inherit}
