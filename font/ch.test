@@ -1,0 +1,58 @@
+<div class="text">
+
+
+
+
+
+
+<blockquote cite="https://drafts.csswg.org/css-values-3/#ch">
+Equal to the used advance measure of the “0” (ZERO, U+0030) glyph found in the font used to render it. (The advance measure of a glyph is its advance width or height, whichever is in the inline axis of the element.) 
+</blockquote>
+
+<style type="text/css">
+section#ch-unit {display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%; margin: 1em auto; font-size: smaller;}
+section#ch-unit div {line-height: 1.2;}
+section#ch-unit div:nth-of-type(1) {font-family: Courier;}
+section#ch-unit div:nth-of-type(2) {font-family: Helvetica;}
+section#ch-unit div:nth-of-type(3) {font-family: Georgia;}
+section#ch-unit span {display: block; width: 20ch; margin: 0.125em 0; background: rgba(255,0,0,0.33); white-space: pre;}
+</style><section class="example" id="ch-unit">
+<div>
+<h3>Courier</h3>
+<span>Look, 20 characters.</span>
+<span>abcdefghijklmnopqrst</span>
+<span>12345678901234567890</span>
+<span>iiiiiiiiiiiiiiiiiiii</span>
+<span>mmmmmmmmmmmmmmmmmmmm</span>
+</div>
+<div>
+<h3>Helvetica</h3>
+<span>Look, 20 characters.</span>
+<span>abcdefghijklmnopqrst</span>
+<span>12345678901234567890</span>
+<span>iiiiiiiiiiiiiiiiiiii</span>
+<span>mmmmmmmmmmmmmmmmmmmm</span>
+</div>
+<div>
+<h3>Georgia</h3>
+<span>Look, 20 characters.</span>
+<span>abcdefghijklmnopqrst</span>
+<span>12345678901234567890</span>
+<span>iiiiiiiiiiiiiiiiiiii</span>
+<span>mmmmmmmmmmmmmmmmmmmm</span>
+</div>
+</section><p>So however wide the “0” character is in a given typeface, that’s the measure of one <code>ch</code>.&nbsp; In monospace (fixed-width) fonts, where all characters are the same width, <code>1ch</code> equals one character.&nbsp; In proportional (variable-width) fonts, any given character could be wider or narrower than the “0” character.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
