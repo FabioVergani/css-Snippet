@@ -1,0 +1,68 @@
+@supports (animation:0){
+
+	@keyframes shake{
+		0%,to{transform:translate3d(0,0,0)}
+		10%,30%,50%,70%,90%{transform:translate3d(-10px,0,0)}
+		20%,40%,60%,80%{transform:translate3d(10px,0,0)}
+	}
+
+	.shake{
+		animation-name:shake
+	}
+
+
+	@keyframes pulse{
+		0%,to{transform:scale3d(1,1,1)}
+		50%{transform:scale3d(1.1,1.1,1.1)}
+	}
+
+	.pulse{
+		animation-name:pulse
+	}
+
+
+	@keyframes flash{
+		0%,50%,to{opacity:1}
+		25%,75%{opacity:0}
+	}
+
+	.flash{
+		animation-name:flash
+	}
+
+
+	@keyframes bounceIn{
+		0%,20%,40%,60%,80%,to{animation-timing-function:cubic-bezier(.2,.6,.3,1)}
+		20%,60%{transform:scale3d(1.1,1.1,1.1)}
+		0%{opacity:0;transform:scale3d(.3,.3,.3)}
+		40%{transform:scale3d(.9,.9,.9)}
+		60%{opacity:1}
+		80%{transform:scale3d(.97,.97,.97)}
+		to{opacity:1;transform:scale3d(1,1,1)}
+	}
+
+	.bounceIn{
+		animation-name:bounceIn
+	}
+
+
+	@keyframes fadeIn{
+		0%{opacity:0}
+		to{opacity:1}
+	}
+
+	.fadeIn{
+		animation-name:fadeIn
+	}
+
+
+	@keyframes zoomIn{
+		0%{opacity:0;transform:scale3d(.3,.3,.3)}
+		50%{opacity:1}
+	}
+
+	.zoomIn{
+		animation-name:zoomIn
+	}
+
+}
