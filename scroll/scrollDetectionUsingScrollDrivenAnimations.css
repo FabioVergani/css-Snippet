@@ -1,0 +1,21 @@
+@keyframes --scroll {
+	0%,to{--scroll: 1;}
+}
+
+:root {
+    animation: --scroll forwards;
+    animation-timeline: --scroll;
+    timeline-scope: --scroll;
+    container-name: --scroll;
+}
+
+#myDiv {
+    overflow-y: auto;
+    scroll-timeline: --scroll;
+}
+
+@container --scroll style(--scroll: 1) {
+    /* The CSS when #myDiv is overflowing
+       you can target any element on the page!
+    */
+}
